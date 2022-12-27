@@ -3,8 +3,8 @@
 2. Prepare get_submissions.py file with proper request cookies, headers, and json_data 
 3. a. Run https://github.com/joshcai/leetcode-sync workflow and have problems folder in root directory. 
    b. Note that the CSRFTOKEN and LEETCODE_SESSION cookie values were found in step 2
-   c. Template of sync_leetcode.yml is included, but make sure this yml file is not copied directly by added 
-      to the .github folder via Github -> Actions -> Creat New Workflow
+   c. Template of sync_leetcode.yml is included, but make sure this yml file is not copied directly but added 
+      to the .github folder via Github -> Actions -> Create New Workflow
 4. Replace root_path and sync_work_path variables below
 5. Run this script and ensure sync_values.csv is in the sync work path folder
 6. Move on to S2_extract_distribution_values.py
