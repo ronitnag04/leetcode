@@ -8,9 +8,8 @@ This is a repository containing all of my solved problems on Leetcode
 ## My Additions
 Both Leethub and Leetcode-Sync contain amazing features, but they lack the ability to sync existing content:
 - Leethub, as of creating this repo (12-26-22) does not have a feature to sync previously solved problems
-- Leetcode-Sync, as of creating this repo (12-26-22), does not pull runtime or memory distribution scores,
+- Leetcode-Sync, as of creating this repo (12-26-22), does not pull runtime or memory distribution scores
 
-I created a method to sync these problems to the repository.
-Using [Selenium](https://selenium-python.readthedocs.io/) to extract the runtime and memory distribution percentages, and [GitPython](https://gitpython.readthedocs.io/en/stable/index.html) to add these percentages to commit messages. 
+I created a method to sync these problems to the repository using [Selenium](https://selenium-python.readthedocs.io/) to extract the runtime and memory distribution percentages and [GitPython](https://gitpython.readthedocs.io/en/stable/index.html) to add these percentages to commit messages. 
 
 Go to the [sync-problems-template](sync-problems-template) folder for more information
