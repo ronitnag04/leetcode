@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 
 root_path = ""  # Replace with your working directory (e.g 'C:/Users/<YOUR_USER_NAME>/OneDrive/Desktop/leetcode/' )
-sync_work_path = '' # default sync-problems-template/
+sync_work_path = '' # default sync-problems/
 
 driver_path = root_path + sync_work_path + "chromedriver" 
 time_delay = 10 # Set higher if you have a slow connection

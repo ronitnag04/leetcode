@@ -16,7 +16,7 @@ import numpy as np
 from git import Repo
 
 root_path = ""  # Replace with your working directory (e.g 'C:/Users/<YOUR_USER_NAME>/OneDrive/Desktop/leetcode/' )
-sync_work_path = '' # default sync-problems-template/
+sync_work_path = '' # default sync-problems/
 
 synced_problems_path =  root_path + 'problems/'
 destination_path = root_path
