@@ -19,8 +19,9 @@ Make sure the following packages and libraries are installed on your device. You
 ## Step 2: Sync previously solved problems
 Follow steps in [S1_get_submitted_problems.py](S1_get_submitted_problems.py)
 1. Copy submissions data in [submissions.json](submissions.json)
-2. There should be a new folder called problems in this workspace containing all of your synced Leetcode solutions
-3. There should be a new file called sync_values.csv in the sync-problems folder
+2. Create workflow on GitHub, copy provided [workflow code](sync_leetcode.yml). This should add a .github\workflows\sync_leetcode.yml folder and file to the main repo folder
+3. There should be a new folder called problems in this workspace containing all of your synced Leetcode solutions
+4. There should be a new file called sync_values.csv in the sync-problems folder
 
 ## Step 3: Extract distribution scores for solved problems
 Follow steps in [S2_extract_distribution_values.py](S2_extract_distribution_values.py)
