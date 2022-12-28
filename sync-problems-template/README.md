@@ -2,7 +2,7 @@
 Follow the steps below to migrate your files
 
 ### Packages Used
-Make sure the following packages and libraries are installed on your device. You may need to add packages not listed. here
+Make sure the following packages and libraries are installed on your device. You may need to add packages that are not listed here.
 - Numpy
 - Pandas
 - Selenium
